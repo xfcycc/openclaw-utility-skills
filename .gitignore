@@ -1,0 +1,32 @@
+# Secrets and local config
+.env
+*.env
+config.json
+*.secret
+*.token
+*.key
+*.pem
+
+# Auth stores
+.codex/
+.openclaw/
+auth.json
+auth-profiles.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Generated media
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
